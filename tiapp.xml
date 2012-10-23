@@ -14,13 +14,13 @@
         <target device="blackberry">false</target>
     </deployment-targets>
     <sdk-version>2.1.3.GA</sdk-version>
-    <id>com.gurron.suuta</id>
+    <id>com.testio.me</id>
     <name>testio</name>
     <version>1.0</version>
-    <publisher>Gurron</publisher>
+    <publisher>bizzby</publisher>
     <url>http://gurron.com</url>
     <description>not specified</description>
-    <copyright>2012 by gurron</copyright>
+    <copyright>2012 by bizzby</copyright>
     <icon>appicon.png</icon>
     <persistent-wifi>false</persistent-wifi>
     <prerendered-icon>false</prerendered-icon>

@@ -1,5 +1,4 @@
 
-
 var view01 = Titanium.UI.createImageView({
 	image:"graphics/bak.png",
 	height:"140%",
@@ -15,8 +14,6 @@ var view02 = Titanium.UI.createImageView({
 })
 
 
-
-
 // create tab group
 var tabGroup = Titanium.UI.createTabGroup();
 
@@ -24,9 +21,10 @@ var tabGroup = Titanium.UI.createTabGroup();
 // create base UI tab and root window
 //
 var win1 = Titanium.UI.createWindow({
-    title: 'My suuta',
+    title: 'My Suuta',
     backgroundColor: '#fff'
 });
+
 var tab1 = Titanium.UI.createTab({
     icon: 'KS_nav_views.png',
     title: 'Suuta',
@@ -59,7 +57,8 @@ var button3 = Titanium.UI.createButton({
 
 win1.add(view01);
 win1.add(view02);
-button.addEventListener('click',
+button.addEventListener('click', 
+
 function(e) {
 
     var tabWin = Titanium.UI.createWindow({
@@ -152,7 +151,6 @@ tabGroup.addTab(tab2);
 
 // open tab group
 tabGroup.open();
-
 
 
 

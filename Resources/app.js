@@ -149,7 +149,7 @@ var winTwit = Titanium.UI.createWindow({
 	url: 'winTwit.js'
 });
 var tabTwitter = Titanium.UI.createTab({
-	title: '',
+	title: 'TiFeed',
 	window: winTwit
 });
 

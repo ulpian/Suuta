@@ -145,7 +145,7 @@ var tab2 = Titanium.UI.createTab({
 //
 var winTwit = Titanium.UI.createWindow({
 	title: 'SuutaFeed',
-	backgroundColor: 'rgb(0, 0, 0)',
+	backgroundColor: '#000',
 	url: 'winTwit.js'
 });
 var tabTwitter = Titanium.UI.createTab({

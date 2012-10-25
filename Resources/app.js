@@ -87,7 +87,9 @@ function(e) {
     var closeBtn = Titanium.UI.createButton({
         title: 'Close'
     });
-    tabWin.leftNavButton = closeBtn;
+    
+tabWin.leftNavButton = closeBtn;
+    
     closeBtn.addEventListener('click',
     function(e) {
         tabGroup.animate({

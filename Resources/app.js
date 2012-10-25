@@ -141,6 +141,19 @@ var tab2 = Titanium.UI.createTab({
 });
 
 //
+// the twitter tweets page
+//
+var winTwit = Titanium.UI.createWindow({
+	title: 'SuutaFeed',
+	backgroundColor: 'rgb(0, 0, 0)',
+	url: 'winTwit.js'
+});
+var tabTwitter = Titanium.UI.createTab({
+	title: '',
+	window: winTwit
+});
+
+//
 //  add tabs
 //
 
@@ -149,6 +162,7 @@ win2.add(button2);
 win2.add(button3);
 tabGroup.addTab(tab1);
 tabGroup.addTab(tab2);
+tabGroup.addTab(tabTwitter);
 
 
 // open tab group
